@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "linkedin_adder"
+version = "0.1.0"
+description = "Adds connections to linkedin based on list"
+authors = ["Terje Espedal"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^3.141.0"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
