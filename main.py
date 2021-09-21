@@ -72,7 +72,7 @@ def main():
         for url in urls:
             driver.get(url)
             connect()
-            time.sleep(2)
+            time.sleep(1)
 
 
 main()
